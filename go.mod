@@ -9,6 +9,7 @@ require (
 	github.com/stretchr/testify v1.8.1
 	golang.org/x/exp v0.0.0-20241204233417-43b7b7cde48d
 	golang.org/x/text v0.21.0
+	gonum.org/v1/gonum v0.15.1
 )
 
 require (

@@ -38,7 +38,7 @@ func Execute() {
 
 func init() {
 	RootCmd.PersistentFlags().CountVarP(&verbosity, "verbose", "v", "verbose output")
-	RootCmd.PersistentFlags().StringVarP(&inputPath, "input", "i", "", "Input file")
+	RootCmd.PersistentFlags().StringVarP(&inputPath, "input", "i", "", "input file")
 
 	RootCmd.AddCommand(TwentyTwentyOne.TwentyTwentyOneCmd)
 	RootCmd.AddCommand(TwentyTwentyTwo.TwentyTwentyTwoCmd)

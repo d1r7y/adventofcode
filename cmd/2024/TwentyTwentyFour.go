@@ -18,6 +18,8 @@ import (
 	TwentyTwentyFour_day11 "github.com/d1r7y/adventofcode/cmd/2024/day11"
 	TwentyTwentyFour_day12 "github.com/d1r7y/adventofcode/cmd/2024/day12"
 	TwentyTwentyFour_day13 "github.com/d1r7y/adventofcode/cmd/2024/day13"
+	TwentyTwentyFour_day14 "github.com/d1r7y/adventofcode/cmd/2024/day14"
+	TwentyTwentyFour_day15 "github.com/d1r7y/adventofcode/cmd/2024/day15"
 	"github.com/spf13/cobra"
 )
 
@@ -42,4 +44,6 @@ func init() {
 	TwentyTwentyFourCmd.AddCommand(TwentyTwentyFour_day11.Day11Cmd)
 	TwentyTwentyFourCmd.AddCommand(TwentyTwentyFour_day12.Day12Cmd)
 	TwentyTwentyFourCmd.AddCommand(TwentyTwentyFour_day13.Day13Cmd)
+	TwentyTwentyFourCmd.AddCommand(TwentyTwentyFour_day14.Day14Cmd)
+	TwentyTwentyFourCmd.AddCommand(TwentyTwentyFour_day15.Day15Cmd)
 }
